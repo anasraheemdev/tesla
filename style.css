@@ -114,6 +114,9 @@ a.borders:hover{
         background-image: url(Homepage-Model-X-Mobile-v2.avif);
     }
 
+    .icons{
+        display:none;
+    }
 
     
 }
