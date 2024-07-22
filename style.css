@@ -1,0 +1,193 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    color: #171A20;
+}
+header{
+    height: 56px;
+    display: flex;
+    justify-content:space-between;
+    padding-top: 25px;    
+    padding-left: 35px;    
+    padding-right: 35px;  
+    background-image: url(Tesla-Hero.avif);
+
+
+}
+.logo{
+    height: 24px;
+    width: 152px;
+    color: #171A20;
+    border: 2px ;
+    padding: 10px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 40%;
+}
+ul li{
+    
+    font-family: "Poppins", sans-serif;
+    font-size: 13.5px;
+    font-weight: 600;
+    color: #171A20;
+    
+}
+.a-li{
+    text-decoration: none;
+}
+
+.icons{
+    display: flex;
+    
+}
+
+.sub-icon{
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #171A20;
+
+}
+.style-icon{
+    color: #171A20;;
+}
+a.borders{
+    height: 20px;
+    width: 70px;
+    border: 2px;
+    
+    padding: 10px;
+    margin-left: 5px;
+    margin-right:5px ;
+}
+a.borders:hover{
+    background-color: #F2EEEE;;
+    
+    border-radius: 3px;
+}
+
+.borders{
+    border: 2px;
+    height: 20px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right:5px ;
+    justify-content: center;
+}
+
+.borders:hover{
+    background-color: #F2EEEE;;
+    border-radius: 3px;
+}
+.res-bar{
+    height: 20px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right:5px ;
+    position: relative;
+    left: 25px;
+}
+@media screen and (min-width : 600px){
+    .res-bar{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    nav{
+        display: none;
+    }
+    .buttons{
+        padding-top: 400px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+    .btn{
+        width:350px;
+    }
+
+    .hero2{
+        background-image: url(Homepage-Model-X-Mobile-v2.avif);
+    }
+
+
+    
+}
+
+
+
+.hero{
+background-image: url(Tesla-Hero.avif);
+background-repeat: no-repeat;
+background-size: cover;
+height: 100%;
+width: 100%;
+display: flex;
+ flex-direction: column;
+}
+
+
+.cont1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.heading1{
+    font-size: 40px;
+    font-weight: 6
+    00;
+}
+
+.Htext{
+    font-size: 22px;
+    font-weight: 550;
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top:15%;
+    padding-bottom: 15%;
+}
+
+.btn{
+    width: 250px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    margin: 10px;
+}
+.btn1{
+    background-color: #EEEEEE;
+}
+.btn2{
+    background-color: #000000;
+    color: white;
+}
+
+
+
+.hero2{
+    background-image: url(Homepage-Model-X-Desktop-v2.avif);
+}
+
+.hero3{
+    background-image:url(Homepage-Model-S-Desktop-v2.avif) ;
+}
+
+.hero4{
+    background-image: url(Homepage-SolarPanels-01-Desktop.avif);
+}
+
+.hero5{
+    background-image: url(Homepage-SolarRoof-Desktop-Global.avif);
+}
